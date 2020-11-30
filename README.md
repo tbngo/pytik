@@ -3,7 +3,7 @@ pytok is a lightweight Python library for gathering metadata from a TikTok video
 
 ## Installation
 ```bash
-$ python -m pip install pytube
+$ python -m pip install pytok
 ```
 
 ## Getting Started
