@@ -1,0 +1,9 @@
+###### Requirements without Version Specifiers ######`
+selenium
+webdriver-manager
+pytest
+pytest-cov
+codecov
+black
+
+###### Requirements with Version Specifiers ######`
