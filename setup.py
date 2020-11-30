@@ -8,7 +8,7 @@ setup(
     author_email="thengocu@gmail.com",
     description="Python metadata collector for TikTok",
     license="MIT",
-    install_requires=[],
+    install_requires=["selenium", "webdriver-manager"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
