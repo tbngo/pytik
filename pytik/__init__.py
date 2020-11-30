@@ -1,1 +1,1 @@
-from pytok.__main__ import TikTok
+from pytik.__main__ import TikTok
