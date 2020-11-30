@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="pytok",
-    packages=find_packages(include=["pytok"]),
+    name="pytik",
+    packages=find_packages(include=["pytik"]),
     version="0.0.1",
     author="The Ngo",
     author_email="thengocu@gmail.com",

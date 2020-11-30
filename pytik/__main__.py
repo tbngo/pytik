@@ -1,4 +1,4 @@
-from pytok import extract
+from pytik import extract
 
 
 class TikTok:

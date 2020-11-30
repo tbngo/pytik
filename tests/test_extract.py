@@ -1,5 +1,5 @@
-from pytok import extract
-from pytok import TikTok
+from pytik import extract
+from pytik import TikTok
 
 
 def test_description_with_class():
