@@ -10,6 +10,7 @@ $ python -m pip install pytube
 pytok exposes a TikTok class, enabling you to request specific attributes from a TikTok video.
 
 ```python
+ >>> from pytok import TikTok
  >>> tk = TikTok('https://www.tiktok.com/@gordonramsayofficial/video/6898822706662231302?lang=en')
  >>> tk.description()
  >>> tk.user()
