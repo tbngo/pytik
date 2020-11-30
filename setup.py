@@ -6,7 +6,7 @@ setup(
     version="0.0.1",
     author="The Ngo",
     author_email="thengocu@gmail.com",
-    description="Python metadata collector for TikTok",
+    description="Python metadata scrapper for TikTok",
     license="MIT",
     install_requires=["selenium", "webdriver-manager"],
     classifiers=[
