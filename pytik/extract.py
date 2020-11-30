@@ -5,7 +5,7 @@ import os
 
 
 def generate_driver(url: str):
-    os.environ["WDM_LOG_LEVEL"] = "0"  # Supress ChromeDriverManager logs
+    os.environ["WDM_LOG_LEVEL"] = "0"  # Suppress ChromeDriverManager logs
 
     options = webdriver.ChromeOptions()
     options.add_argument("--ignore-certificate-errors")
