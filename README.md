@@ -1,4 +1,4 @@
-https://img.shields.io/github/license/thengo1/pytok
+![GitHub](https://img.shields.io/github/license/thengo1/pytok)
 
 # pytok
 pytok is a lightweight Python library for gathering metadata from a TikTok video.
