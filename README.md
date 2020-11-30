@@ -6,8 +6,8 @@ pytok is a lightweight Python library for gathering metadata from a TikTok video
 $ python -m pip install pytube
 ```
 
-## Description
-pytok allows you to gather metadata from TikTok, a popular video-sharing platform, videos. 
+## Getting Started
+pytok exposes a TikTok class, enabling you to request specific attributes from a TikTok video.
 
 ```python
  >>> tk = TikTok('https://www.tiktok.com/@gordonramsayofficial/video/6898822706662231302?lang=en')
