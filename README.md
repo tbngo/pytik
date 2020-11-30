@@ -4,7 +4,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # pytok
-pytok is a lightweight Python library for gathering metadata from a TikTok video.
+pytok is a Python library for gathering metadata from a TikTok video.
 
 ## Installation
 ```bash
