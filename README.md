@@ -1,4 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/thengo1/pytok)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/thengo1/pytok/tests/main)
 [![codecov](https://codecov.io/gh/thengo1/pytok/branch/main/graph/badge.svg?token=9W25J9UEIR)](https://codecov.io/gh/thengo1/pytok)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
