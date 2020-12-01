@@ -3,6 +3,7 @@
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/thengo1/pytik/tests/main)
 ![Codecov](https://img.shields.io/codecov/c/github/thengo1/pytik)
 ![Read the Docs](https://img.shields.io/readthedocs/pytik)
+![PyPI](https://img.shields.io/pypi/v/pytik?color=gree)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 pytik is a Python library for gathering metadata from a TikTok video.
