@@ -1,5 +1,5 @@
 # pytik
-![GitHub](https://img.shields.io/github/license/thengo1/pytik)
+![GitHub](https://img.shields.io/github/license/thengo1/pytik?color=gree)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/thengo1/pytik/tests/main)
 ![Codecov](https://img.shields.io/codecov/c/github/thengo1/pytik)
 ![Read the Docs](https://img.shields.io/readthedocs/pytik)
