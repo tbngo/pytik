@@ -1,13 +1,26 @@
-# Welcome to pytik's documentation!
+# pytik's documentation
 
-## This is a first header
+---
 
-- These
-- Are
-- Some
-- Bullets
+# Introduction
+
+> pytik is a Python library for gathering metadata from a TikTok video
+
+---
+
+# Getting Started
+
+### Installation
+
+pytik can be installed via PIP from [PyPI](https://pypi.org/project/pytik/)
+
+```bash
+pip install pytik
+```
+
+---
 
 ```eval_rst
 .. note::
-    We can still mix rst
+    The documentation for pytik is not yet complete and is currently being written.
 ```
