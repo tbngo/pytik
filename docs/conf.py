@@ -16,8 +16,6 @@
 import sphinx_rtd_theme
 from recommonmark.transform import AutoStructify
 
-master_doc = "index"
-
 
 def setup(app):
     app.add_config_value(
