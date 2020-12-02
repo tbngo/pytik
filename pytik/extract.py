@@ -26,6 +26,3 @@ def user(url: str):
     driver = generate_driver(url)
     description = driver.find_element(By.CLASS_NAME, "author-uniqueId")
     return description.text
-
-
-description("https://www.tiktok.com/@foodies/video/6869148881230318853?lang=en")
