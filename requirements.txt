@@ -1,6 +1,6 @@
 ###### Requirements without Version Specifiers ######`
 selenium
-chromedriver-py
+webdriver_manager
 pytest
 pytest-cov
 codecov
