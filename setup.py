@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name="pytik",
     packages=find_packages(include=["pytik"]),
-    version="0.1.2",
+    version="0.1.3",
     author="The Ngo",
     author_email="thengocu@gmail.com",
     description="Python metadata scrapper for TikTok",
