@@ -1,4 +1,4 @@
-from pytik import extract
+import extract
 
 
 class TikTok:
@@ -7,3 +7,11 @@ class TikTok:
 
     def description(self) -> str:
         return extract.description(self.url)
+
+    def user(self) -> str:
+        return extract.user(self.url)
+
+
+tk = TikTok("https://www.tiktok.com/@chrissyvroom4/video/6900744385122585861?lang=en")
+print(tk.user())
+print(tk.description())
