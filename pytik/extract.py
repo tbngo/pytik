@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from chromedriver_py import binary_path
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 def generate_driver(url: str):
@@ -11,7 +11,7 @@ def generate_driver(url: str):
     options.add_argument("--log-level=3")
     options.add_argument("--silent")
 
-    driver = webdriver.Chrome(executable_path=binary_path, options=options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     driver.get(url)
     return driver
 
