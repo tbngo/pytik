@@ -1,28 +1,46 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
+import json
+import urllib.parse
+import re
 
 
-def generate_driver(url: str):
-    options = webdriver.ChromeOptions()
-    options.add_argument("--ignore-certificate-errors")
-    options.add_argument("--incognito")
-    options.add_argument("--headless")
-    options.add_argument("--log-level=3")
-    options.add_argument("--silent")
-
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    driver.get(url)
-    return driver
-
-
-def description(url: str):
-    driver = generate_driver(url)
-    description = driver.find_element(By.CLASS_NAME, "tt-video-meta-caption")
-    return description.text
+def video_id(url):
+    """Extract the ``video_id`` from a TikTok url.
+    This function supports the following patterns:
+    - :samp:`https://www.tiktok.com/@{user}/video/{video_id}}`
+    :param str url:
+        A TikTok url containing a video id.
+    :rtype: str
+    :returns:
+        TikTok video id.
+    """
+    return re.findall("\d+", url)[0]
 
 
-def user(url: str):
-    driver = generate_driver(url)
-    description = driver.find_element(By.CLASS_NAME, "author-uniqueId")
-    return description.text
+def description(json):
+    return json["props"]["pageProps"]["itemInfo"]["itemStruct"]["desc"]
+
+
+def user(json):
+    return json["props"]["pageProps"]["itemInfo"]["itemStruct"]["author"]["uniqueId"]
+
+
+def nickname(json):
+    return json["props"]["pageProps"]["itemInfo"]["itemStruct"]["author"]["nickname"]
+
+
+def song(json):
+    return json["props"]["pageProps"]["itemInfo"]["itemStruct"]["music"]["title"]
+
+
+def song_author(json):
+    return json["props"]["pageProps"]["itemInfo"]["itemStruct"]["music"]["authorName"]
+
+
+def get_json(html):
+    pattern = r"(?<={\"props\":)(.*?)(?=</script>)"
+    regex = re.compile(pattern)
+    result = regex.search(html)
+    span = result.span()
+    full_obj = '{"props":' + html[span[0] : span[1]]
+    return json.loads(full_obj)
