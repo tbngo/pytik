@@ -6,7 +6,7 @@
 [![PyPI](https://img.shields.io/pypi/v/pytik?color=gree)](https://pypi.org/project/pytik/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-pytik is a Python library for gathering metadata from a TikTok video.
+pytik is a lightweight, dependency-free Python library for gathering metadata from TikTok.
 
 ## Installation
 
@@ -20,7 +20,13 @@ pytik exposes a TikTok class, enabling you to request specific attributes from a
 
 ```python
  >>> from pytik import TikTok
- >>> tk = TikTok('https://www.tiktok.com/@gordonramsayofficial/video/6898822706662231302?lang=en')
+ >>> tk = TikTok('https://www.tiktok.com/@tiktok/video/6881450806688664838')
  >>> tk.description()
+ "Good vibes only 🤙 @420doggface208 @mickfleetwood @tomhayes603"
  >>> tk.user()
+ "tiktok"
+ >>> tk.song()
+ "original sound"
+ >>> tk.song_author() 
+ "TikTok"
 ```
