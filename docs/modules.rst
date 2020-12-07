@@ -1,4 +1,4 @@
-pytok
+pytik
 =====
 
 .. toctree::
