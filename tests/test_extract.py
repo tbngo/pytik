@@ -27,4 +27,4 @@ def test_song_author_with_class():
 
 def test_nickname_with_class():
     tk = TikTok("https://www.tiktok.com/@tiktok/video/6881450806688664838")
-    assert tk.song_author() == "TikTok"
+    assert tk.nickname() == "TikTok"
