@@ -1,6 +1,5 @@
 ###### Requirements without Version Specifiers ######`
-selenium
-webdriver_manager
+requests
 pytest
 pytest-cov
 codecov
