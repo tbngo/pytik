@@ -12,7 +12,7 @@ setup(
         "Read the Docs": "https://pytik.readthedocs.io/en/latest",
     },
     license="MIT",
-    install_requires=["requests"],
+    install_requires=[""],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
