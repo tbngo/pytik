@@ -4,4 +4,9 @@ pytest-cov
 codecov
 black
 
+### Requirements for documentation ###
+Sphinx
+recommonmark
+sphinx_rtd_theme
+
 ###### Requirements with Version Specifiers ######`
