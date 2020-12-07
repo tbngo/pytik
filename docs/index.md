@@ -21,6 +21,12 @@ pip install pytik
 ---
 
 ```eval_rst
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+
+    modules
+
 .. note::
     The documentation for pytik is not yet complete and is currently being written.
 ```
