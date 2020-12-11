@@ -6,7 +6,8 @@ import re
 def video_id(url):
     """Extract the ``video_id`` from a TikTok url.
     This function supports the following patterns:
-    - :samp:`https://www.tiktok.com/@{user}/video/{video_id}}`
+    - :samp:`https://www.tiktok.com/@{user}/video/{video_id}`
+
     :param str url:
         A TikTok url containing a video id.
     :rtype: str

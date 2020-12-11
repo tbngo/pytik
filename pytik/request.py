@@ -16,10 +16,9 @@ def _execute_request(url):
 
 def get(url):
     """Send an http GET request.
+
     :param str url:
         The URL to perform the GET request for.
-    :param dict extra_headers:
-        Extra headers to add to the request
     :rtype: str
     :returns:
         UTF-8 encoded string of response
