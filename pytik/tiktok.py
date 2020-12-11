@@ -7,8 +7,7 @@ class TikTok:
     """
     The core developer interface for pytik. pytik offloads the heavy lifting
     to smaller peripheral modules and functions.
-    :param url: The url of the TikTok video to gather data from
-    :type url: string
+    :param str url: The url of the TikTok video to gather data from
     """
 
     def __init__(self, url):
