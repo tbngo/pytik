@@ -45,14 +45,14 @@ class TikTok:
         return extract.user(self.json)
 
     def nickname(self) -> str:
-      """Returns the video creator's nickname
+        """Returns the video creator's nickname
 
         :rtype: String
         """
         return extract.nickname(self.json)
 
     def song(self) -> str:
-      """Returns the video's song
+        """Returns the video's song
 
         :rtype: String
         """
