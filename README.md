@@ -11,7 +11,7 @@ pytik is a lightweight, dependency-free Python library for gathering metadata fr
 ## Installation
 
 ```bash
-$ python -m pip install pytik
+$ pip install pytik
 ```
 
 ## Getting Started
