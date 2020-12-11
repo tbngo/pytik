@@ -15,7 +15,7 @@ class TikTok:
         self.url = url
         self.video_id = extract.video_id(url)
         self.html = None
-        self.json = None  # Represents props json in from the TikTok page's HTML
+        self.json = None  # Represents props json from the TikTok page's HTML after
         self.prefetch()
 
     def prefetch(self) -> None:
