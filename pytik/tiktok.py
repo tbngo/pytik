@@ -4,6 +4,13 @@ import re
 
 
 class TikTok:
+    """
+    The core developer interface for pytik. pytik offloads the heavy lifting
+    to smaller peripheral modules and functions.
+    :param url: The url of the TikTok video to gather data from
+    :type url: string
+    """
+
     def __init__(self, url):
         self.url = url
         self.video_id = extract.video_id(url)
