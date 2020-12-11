@@ -31,16 +31,36 @@ class TikTok:
         self.json = extract.get_json(self.html)
 
     def description(self) -> str:
+        """Returns the video's description
+
+        :rtype: String
+        """
         return extract.description(self.json)
 
     def user(self) -> str:
+        """Returns the video's user
+
+        :rtype: String
+        """
         return extract.user(self.json)
 
     def nickname(self) -> str:
+      """Returns the video creator's nickname
+
+        :rtype: String
+        """
         return extract.nickname(self.json)
 
     def song(self) -> str:
+      """Returns the video's song
+
+        :rtype: String
+        """
         return extract.song(self.json)
 
     def song_author(self) -> str:
+        """Returns the video's song author
+
+        :rtype: String
+        """
         return extract.song_author(self.json)
