@@ -13,7 +13,7 @@ def video_id(url):
     :returns:
         TikTok video id.
     """
-    return re.findall("\d+", url)[0]
+    return re.findall(r"\d+", url)[0]
 
 
 def description(json):
