@@ -6,7 +6,7 @@
 [![PyPI](https://img.shields.io/pypi/v/pytik?color=gree)](https://pypi.org/project/pytik/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-pytik is a lightweight, dependency-free Python library for gathering metadata from TikTok.
+pytik is a lightweight, dependency-free Python library for getting data from TikTok.
 
 ## Installation
 
